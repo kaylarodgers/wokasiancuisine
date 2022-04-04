@@ -1,0 +1,163 @@
+header, nav, main, footer {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5F9FF;
+    color: #024F65;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#wrapper {
+    background-color: #FEFEFE;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #FEFEFE;
+    color: #024F65;
+    text-align: center;
+}
+
+#logo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 75px;
+    padding-left: 75px;
+    border: 2px dotted #DDC59A;
+    background-color: #C1AD89;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color: #F5E3C3;
+}
+
+.activepage {
+    background-color: #E5F9FF;
+}
+
+h1 {
+    border-top: 5px solid #DDC59A;
+    border-bottom: 5px solid #DDC59A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FAF1E0;
+}
+
+h1 a {
+    text-decoration: none;
+    border: 2px dotted #DDC59A;
+    background-color: #C1AD89;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 a:hover {
+    background-color: #F5E3C3;
+}
+
+main {
+    text-align: center;
+    clear: both;
+}
+
+.homeimage {
+    max-width: 75%;
+}
+
+#catering {
+    padding: 12px;
+    border: 3px solid #DDC59A;
+    max-width: 33%;
+    margin: auto;
+    display: inline-block;
+    font-family: "Calibri", "Verdana", sans-serif;
+}
+
+#local {
+    padding: 12px;
+    border: 3px solid #DDC59A;
+    max-width: 33%;
+    margin: auto;
+    display: inline-block;
+    font-family: "Calibri", "Verdana", sans-serif;
+}
+
+#chef {
+    padding: 12px;
+    border: 3px solid #DDC59A;
+    max-width: 33%;
+    margin-right: 0;
+    display: inline-block;
+    font-family: "Calibri", "Verdana", sans-serif;
+}
+
+form {
+    width: 600px;
+    background-color: #FAF1E0;
+    padding: 20px;
+    margin: 2em auto;
+    border: 3px solid #DDC59A;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+}
+
+label, input, select {
+    margin: 0 0 20px 0;
+    display: inline-block;
+}
+
+label, select{
+    width: 200px;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 1.5em;  
+}
+
+.contact {
+    font-weight: bold;
+    border-top: 5px dotted #E5F9FF;
+    border-bottom: 5px dotted #E5F9FF;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+    padding: .5em;
+    background-color: #E5F9FF;
+    clear: both;
+}
